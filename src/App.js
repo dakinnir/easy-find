@@ -30,7 +30,7 @@ export default function App() {
                     <button>Sign Up</button>
                     <p>
                         Already have an account? 
-                        <span><a href="#">Log in</a></span>
+                        <span><a href="#"> Log in</a></span>
                     </p>
                 </form>
             </div>
