@@ -18,7 +18,6 @@ export default function LogInPage() {
                     <button>Sign In</button>
                     <p>
                         Don't have an account? 
-                        // eslint-disable-next-line
                         <span><a href="#"> Create One! </a></span>
                     </p>
                 </form>
