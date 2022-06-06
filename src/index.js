@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css'
-import ForgotPasswordPage from './registration/views/ForgotPasswordPage';
-// import Signin from './registration/views/Signin';
+import CreateNewPasswordPage from './registration/views/CreateNewPasswordPage';
+// import ForgotPasswordPage from './registration/views/ForgotPasswordPage';
+
+// import RegisterationPage from './registration/views/RegisterationPage';
+// import ForgotPasswordPage from './registration/views/ForgotPasswordPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ForgotPasswordPage />
+    <CreateNewPasswordPage />
   </React.StrictMode>
 );

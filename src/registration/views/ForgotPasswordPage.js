@@ -1,17 +1,16 @@
 import React from 'react'
-import '../css/ForgotPasswordPage.css';
+import '../css/ForgotPasswordPage.css'
+import PasswordRecoveryHeader from './components/PasswordRecoveryHeader';
 
 export default function ForgotPasswordPage() {
   return (
     <div class="container">
       <div className="content">
-        <div className="header">
-          <img className="header-key_image" src="../images/logo.png" alt="Logo"/>
-          <h2 className="header-title">Forgot password?</h2>
-          <p className="header-message">
-              No worries, we'll send you an email to help with password recovery.
-          </p>
-        </div>
+        <PasswordRecoveryHeader 
+          image="../images/logo.png" 
+          title="Forgot Password" 
+          message="No worries, we'll send you an email to help with password recovery."
+        />
         { /* form section */ }
         <form action="" class="form">
             <span className="details">Email</span>
@@ -22,3 +21,5 @@ export default function ForgotPasswordPage() {
     </div>
   )
 }
+
+

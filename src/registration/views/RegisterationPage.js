@@ -1,7 +1,7 @@
 import React from 'react'
-import './css/Registration.css'
+import '../css/style.css'
 
-export default function App() {
+export default function RegisterationPage() {
   return (
     <div>
         <div className="form-section">
