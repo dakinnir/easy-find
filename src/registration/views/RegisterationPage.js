@@ -1,7 +1,7 @@
 import React from 'react'
-import './css/Registration.css'
+import '../css/style.css'
 
-export default function App() {
+export default function RegisterationPage() {
   return (
     <div>
         <div className="form-section">
@@ -30,7 +30,7 @@ export default function App() {
                     <button>Sign Up</button>
                     <p>
                         Already have an account? 
-                        <span><a href="#">Log in</a></span>
+                        <span><a href="#"> Log in</a></span>
                     </p>
                 </form>
             </div>
