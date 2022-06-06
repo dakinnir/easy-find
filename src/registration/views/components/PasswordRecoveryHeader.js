@@ -12,7 +12,3 @@ export default function PasswordRecoveryHeader(props) {
         </div>
   )
 }
-
-// ../images/logo.png
-
-// No worries, we'll send you an email to help with password recovery.

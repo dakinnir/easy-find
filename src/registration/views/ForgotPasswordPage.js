@@ -7,7 +7,7 @@ export default function ForgotPasswordPage() {
     <div class="container">
       <div className="content">
         <PasswordRecoveryHeader 
-          image="../images/logo.png" 
+          image="../images/key-logo.png" 
           title="Forgot Password" 
           message="No worries, we'll send you an email to help with password recovery."
         />
