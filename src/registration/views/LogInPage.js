@@ -1,31 +1,47 @@
 import React from 'react'
+import '../css/ForgotPasswordPage.css'
 
 export default function LogInPage() {
   return (
-    <div>
-        <div className="form-section">
-            <h4>EasyFind</h4>
-            <div className="form">
-                <h2>Sign In</h2>
-                <form action="">
-                    <label htmlFor="email">Email</label>
-                    <input type="text" name="email" id="email" placeholder="Enter email"/>
+    <div className='page'>
+        <h4>EasyFind</h4>
+        <div className='container'>
+            <div className='content'>
+                <form action="" className='form'>
+                    <div className='header'>
+                        <h2>Sign In</h2>
+                        <p className='message'>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sapiente dignissimos atque, architecto neque perferendis illum 
+                            modi cupiditate repudiandae.
+                        </p>
+                    </div>
+                        {/* <label htmlFor="email">Email</label> */}
+                    <span className="details">Email</span>
+                    <input type="email" className="input-box" placeholder="Enter email..." required/>
 
-                    <label htmlFor="password">Password</label>
-                    <input type="password" name="password" id="password" placeholder="Enter password"/>
+                    {/* <label htmlFor="password">Password</label> */}
+                    <span className="details">Password</span>
+                    <input type="password" className="input-box" placeholder="Enter password..." required/>
 
-                    <button>Sign In</button>
-                    <p>
+                    <button className='reset-button'> Sign In</button>
+                    <p className='already-user'> 
                         Don't have an account? 
                         <span><a href="#"> Create One! </a></span>
                     </p>
                 </form>
             </div>
         </div>
-        <div className="image-section">
-            {/* <h3 className="img-heading"> Sign In to join our network of professionals and create new opportunities! </h3> */}
+        {/* <div className="form-section">
+            <div className="form">
+                <form action="">
+                    
+                </form>
+            </div>
+        </div> */}
+        {/* <div className="image-section">
             <img src="../images/background.png" alt="Logo"/>
-        </div>
+        </div> */}
     </div>
   )
 }

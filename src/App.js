@@ -7,6 +7,6 @@ import RegisterationPage from './registration/views/RegisterationPage';
 
 export default function App(){
     return(
-        <RegisterationPage/>
+        <LogInPage />
     )
 }
