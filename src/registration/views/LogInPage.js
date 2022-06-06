@@ -1,7 +1,7 @@
 import React from 'react'
-import './css/style.css'
+import '../css/style.css'
 
-export default function Signin() {
+export default function LogInPage() {
   return (
     <div>
         <div className="form-section">
