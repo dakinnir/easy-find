@@ -1,15 +1,17 @@
 import React from 'react';
-import CreateNewPasswordPage from './registration/views/CreateNewPasswordPage';
-import ForgotPasswordPage from './registration/views/ForgotPasswordPage';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ForgotPasswordPage from './registration/views/ForgotPasswordPage'
 import SuccessfulRecoveryPage from './registration/views/SuccessfulRecoveryPage';
-import RegisterationPage from './registration/views/RegisterationPage';
-import LogInPage from './registration/views/LogInPage'
-
 
 export default function App(){
     return(
-        <div>
-            <LogInPage />
-        </div>
+        <Router>
+            <div className="App">
+                <Switch>
+                    <Route exact path="/" component={ForgotPasswordPage} />
+                    <Route path="/new" component={SuccessfulRecoveryPage} />
+                </Switch>
+            </div>
+        </Router>
     )
 }

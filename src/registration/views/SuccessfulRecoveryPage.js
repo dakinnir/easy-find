@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/ForgotPasswordPage.css'
 import PasswordRecoveryHeader from './components/PasswordRecoveryHeader';
+import { Link } from 'react-router-dom';
 
 export default function SuccessfulRecoveryPage() {
   return (
@@ -13,8 +14,10 @@ export default function SuccessfulRecoveryPage() {
         />
         { /* form section */ }
         <form action="" className="form">
-            <button className="reset-button">Continue</button>
-            <a className="back-link" href="#">Back to log in</a>
+            <Link to="/">
+              <button className="reset-button">Continue</button>
+            </Link>
+            <Link className="back-link" href="#">Back to log in</Link>
         </form>
       </div>
     </div>
