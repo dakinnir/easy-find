@@ -1,6 +1,6 @@
 import React from "react"
-import PasswordRecoveryHeader from "./components/PasswordRecoveryHeader"
 import '../css/ForgotPasswordPage.css'
+import PasswordRecoveryHeader from "./components/PasswordRecoveryHeader"
 
 export default function CreateNewPasswordPage() {
   return (
@@ -14,10 +14,10 @@ export default function CreateNewPasswordPage() {
         { /* form section */ }
         <form action="" class="form">
             <span className="details">Password</span>
-            <input type="password" class="input-box" placeholder="Password" required/>
+            <input type="password" class="input-box" placeholder="Enter new password..." required/>
 
             <span className="details">Confirm Password</span>
-            <input type="password" class="input-box" placeholder="Confirm password" required/>
+            <input type="password" class="input-box" placeholder="Confirm new password..." required/>
 
             <button className="reset-button">Reset Password </button>
         </form>
