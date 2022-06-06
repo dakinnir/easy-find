@@ -3,40 +3,50 @@ import '../css/ForgotPasswordPage.css'
 
 export default function RegisterationPage() {
   return (
-    <div class="container">
-      <div className="content">
-        <div className="form-section">
-            <h4>EasyFind</h4>
-            <div className="form">
-                <h2>Sign Up</h2>
-                <form action="">
-                    <label htmlFor="name">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Enter name"/>
+      <div className="page">
+        <h4>EasyFind</h4>
 
-                    <label htmlFor="email">Email</label>
-                    <input type="text" name="email" id="email" placeholder="Enter email"/>
+            <div className="container">
 
-                    <label htmlFor="password">Password</label>
-                    <input type="password" name="password" id="password" placeholder="Enter password"/>
+            <div className="content">
+                {/* <div className="form"> */}
+                    <form action="" className="form">
+                    <div className="header">
+                        <h2>Let's Get Started!</h2>
+                        <p className="message">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sapiente dignissimos atque, architecto neque perferendis illum 
+                            modi cupiditate repudiandae.
+                        </p>
+                    </div>
 
-                    <label htmlFor="repassword">Confirm Password</label>
-                    <input type="password" name="repassword" id="repassword" placeholder="Re-enter password"/>
+                        <span className="details">Name</span>
+                        <input type="name" className="input-box" placeholder="Enter your full name..." required/>
 
-                    <label htmlFor="account">Choose Account Type: </label>
-                    <select name="account" id="account">
-                        <option value="client">Client</option>
-                        <option value="contractor">Contractor</option>
+                        <span className="details">Email</span>
+                        <input type="email" className="input-box" placeholder="Enter email..." required/>
 
-                    </select>
-                    <button>Sign Up</button>
-                    <p>
-                        Already have an account? 
-                        <span><a href="#"> Log in</a></span>
-                    </p>
-                </form>
+                        <span className="details">Password</span>
+                        <input type="password" className="input-box" placeholder="Enter password..." required/>
+
+                        <span className="details">Confirm Password</span>
+                        <input type="password" className="input-box" placeholder="Confirm password..." required/>
+
+                        <label htmlFor="account">Choose Account Type: </label>
+                        <select name="account" id="account">
+                            <option value="client">Client</option>
+                            <option value="contractor">Contractor</option>
+
+                        </select>
+                        <button className="reset-button">Sign Up</button>
+                        <p className="already-user">
+                            Already have an account? 
+                            <span><a href="#"> Log in</a></span>
+                        </p>
+                    </form>
+                {/* </div> */}
+                </div>
             </div>
-        </div>
-        </div>
-    </div>
+      </div>
   )
 }
