@@ -7,7 +7,7 @@ export default function CreateNewPasswordPage() {
     <div class="container">
       <div className="content">
         <PasswordRecoveryHeader 
-          image="../images/logo.png" 
+          image="../images/key-logo.png" 
           title="Set new password" 
           message="Your new password must be different to previously used passwords."
         />
