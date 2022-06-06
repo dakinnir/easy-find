@@ -9,7 +9,7 @@ import LogInPage from './registration/views/LogInPage'
 export default function App(){
     return(
         <div>
-            <RegisterationPage />
+            <LogInPage />
         </div>
     )
 }
