@@ -1,5 +1,6 @@
 import React from 'react'
-import './css/style.css'
+import '../css/style.css'
+
 
 export default function Signin() {
   return (
@@ -18,6 +19,7 @@ export default function Signin() {
                     <button>Sign In</button>
                     <p>
                         Don't have an account? 
+                        // eslint-disable-next-line
                         <span><a href="#"> Create One! </a></span>
                     </p>
                 </form>
