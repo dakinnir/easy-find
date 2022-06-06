@@ -14,10 +14,10 @@ export default function SuccessfulRecoveryPage() {
         />
         { /* form section */ }
         <form action="" className="form">
-            <Link to="/">
+            <Link to="/email-check">
               <button className="reset-button">Continue</button>
             </Link>
-            <Link className="back-link" href="#">Back to log in</Link>
+            <Link className="back-link" to="/login">Back to log in</Link>
         </form>
       </div>
     </div>
