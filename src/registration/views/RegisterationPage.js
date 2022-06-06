@@ -1,9 +1,10 @@
 import React from 'react'
-import '../css/style.css'
+import '../css/ForgotPasswordPage.css'
 
 export default function RegisterationPage() {
   return (
-    <div>
+    <div class="container">
+      <div className="content">
         <div className="form-section">
             <h4>EasyFind</h4>
             <div className="form">
@@ -35,8 +36,6 @@ export default function RegisterationPage() {
                 </form>
             </div>
         </div>
-        <div className="image-section">
-            <img src="../images/background.png" alt="Logo"/>
         </div>
     </div>
   )
