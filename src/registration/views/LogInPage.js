@@ -29,19 +29,13 @@ export default function LogInPage() {
                         Don't have an account? 
                         <span><a href="#"> Create One! </a></span>
                     </p>
+                    <p className='already-user'> 
+                        Forgot Password? 
+                        <span><a href="#"> Click here! </a></span>
+                    </p>
                 </form>
             </div>
         </div>
-        {/* <div className="form-section">
-            <div className="form">
-                <form action="">
-                    
-                </form>
-            </div>
-        </div> */}
-        {/* <div className="image-section">
-            <img src="../images/background.png" alt="Logo"/>
-        </div> */}
     </div>
   )
 }
