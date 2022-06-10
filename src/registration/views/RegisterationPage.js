@@ -5,21 +5,17 @@ export default function RegisterationPage() {
   return (
       <div className="page">
         <h4>EasyFind</h4>
-
             <div className="container">
-
-            <div className="content">
-                {/* <div className="form"> */}
+                <div className="content">
                     <form action="" className="form">
-                    <div className="header">
-                        <h2>Let's Get Started!</h2>
-                        <p className="message">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Sapiente dignissimos atque, architecto neque perferendis illum 
-                            modi cupiditate repudiandae.
-                        </p>
-                    </div>
-
+                        <div className="header">
+                            <h2>Let's Get Started!</h2>
+                            <p className="message">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Sapiente dignissimos atque, architecto neque perferendis illum 
+                                modi cupiditate repudiandae.
+                            </p>
+                        </div>
                         <span className="details">Name</span>
                         <input type="name" className="input-box" placeholder="Enter your full name..." required/>
 
@@ -38,13 +34,12 @@ export default function RegisterationPage() {
                             <option value="contractor">Contractor</option>
 
                         </select>
-                        <button className="reset-button">Sign Up</button>
+                        <button className="reset-button"> Sign Up</button>
                         <p className="already-user">
                             Already have an account? 
                             <span><a href="#"> Log in</a></span>
                         </p>
                     </form>
-                {/* </div> */}
                 </div>
             </div>
       </div>
