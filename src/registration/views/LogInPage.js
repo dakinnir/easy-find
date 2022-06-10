@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/ForgotPasswordPage.css'
+import { Link } from 'react-router-dom'
 
 export default function LogInPage() {
   return (
@@ -27,11 +28,11 @@ export default function LogInPage() {
                     <button className='reset-button'> Sign In</button>
                     <p className='already-user'> 
                         Don't have an account? 
-                        <span><a href="#"> Create One! </a></span>
+                        <span><Link to="/"> Create One! </Link></span>
                     </p>
                     <p className='already-user'> 
                         Forgot Password? 
-                        <span><a href="#"> Click here! </a></span>
+                        <span><Link to="/forgot-password"> Click here! </Link></span>
                     </p>
                 </form>
             </div>
