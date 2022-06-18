@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import LogInPage from './registration/views/LogInPage';
-import RegisterationPage from './registration/views/RegisterationPage';
-import ForgotPasswordPage from './registration/views/ForgotPasswordPage'
-import CheckEmailPage from './registration/views/CheckEmailPage'
+import LogInPage from './registration/pages/LogInPage';
+import RegisterationPage from './registration/pages/RegisterationPage';
+import ForgotPasswordPage from './registration/pages/ForgotPasswordPage'
+import CheckEmailPage from './registration/pages/CheckEmailPage'
 
 
-export default function App(){
+export default function App() {
     return(
         <Router>
             <div className="App">
