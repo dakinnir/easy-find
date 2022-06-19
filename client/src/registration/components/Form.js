@@ -7,7 +7,7 @@ export default function Form(props) {
     }
   return (
     // Add method later and action
-    <form style={ formStyle }>
+    <form style={ formStyle } onSubmit={ props.onSubmit }>
         {props.children}
     </form>
   )

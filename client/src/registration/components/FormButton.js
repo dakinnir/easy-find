@@ -1,11 +1,10 @@
 import React from 'react'
 
-
 export default function FormButton(props) {
     
     const buttonStyle = {
         appearance:'none',
-        webkitAppearance:'none',
+        WebkitAppearance:'none',
         backgroundColor: '#371B58',
         color: 'white',
         textAlign: 'center',
@@ -21,7 +20,8 @@ export default function FormButton(props) {
         <button 
             text={props.text} 
             type={props.type}
-            style={buttonStyle}> { props.text }
+            style={buttonStyle}> 
+            { props.text }
         </button>
     )
 }

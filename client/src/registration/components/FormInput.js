@@ -1,6 +1,8 @@
 import React from 'react'
 
 export default function FormInput(props) {
+
+    // CSS styling for span label text and input-text
     const labelStyle = {
         display: 'block',
         marginBottom: '5px',
@@ -26,7 +28,7 @@ export default function FormInput(props) {
                 style={ labelStyle }> {props.labelText}
             </span>
             <input 
-                type={props.type} style={ inputStyle } 
+                type={props.type} style={ inputStyle } onChange= { props.onChange }
                 placeholder={props.placeholder} required
             />
         </React.Fragment>

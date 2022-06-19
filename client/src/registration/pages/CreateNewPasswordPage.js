@@ -5,12 +5,12 @@ import FormContainer from "../components/FormContainer"
 import FormButton from "../components/FormButton"
 import Form from '../components/Form.js'
 import FormInput from "../components/FormInput"
+import ForgotPasswordWrapper from "../components/ForgotPasswordContainer"
 
 export default function CreateNewPasswordPage() {
   return (
-    <div class="container">
-      <div className="content">
-        <PasswordRecoveryHeader 
+    <ForgotPasswordWrapper>
+      <PasswordRecoveryHeader 
           image="../images/key-logo.png" 
           title="Set new password" 
           message="Your new password must be different to previously used passwords."
@@ -28,7 +28,6 @@ export default function CreateNewPasswordPage() {
               <FormButton type="submit" text="Reset Password"/>
             </Form>
         </FormContainer>
-      </div>
-    </div>
+    </ForgotPasswordWrapper>
   )
 }
