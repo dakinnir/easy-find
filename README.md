@@ -1,5 +1,6 @@
 ## easy-find app
 
+Project Description: 
 easyfind is a web based application that will be used to connect all service providers (such as painters, electricians, etc) to contractos. It will enable them to expand their network and find more opportunities. 
 
 Frontend: 
@@ -20,3 +21,8 @@ Backend:
 - [ ] Job Recommendations: Users will be able to access a list of recommendations and query the database for specific job recommendations.
 - [ ] Messages: Users will be communciate with each other. 
 - [ ] Settings: Users will be to change profile settings (address, phone number, email, password, etc) and much more. 
+
+  
+Credits: 
+<li> Daniel Akinniranye: Software Developer
+<li> Konstandinou Onwuaduegbo: Product/Program Manager
