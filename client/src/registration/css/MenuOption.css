@@ -1,0 +1,29 @@
+.menu-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .menu-option
+     {
+        margin-right: 15px;
+        flex-direction: column;
+
+    }
+}
+
+.menu-option:hover {
+    color: #371B58;
+    text-decoration: underline;
+}
+
+.menu-option > p {
+    margin: 0;
+    font-size: 12px;
+    margin-left: 5px;
+}
