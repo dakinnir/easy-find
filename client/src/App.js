@@ -20,7 +20,7 @@ export default function App() {
         //     </div>
         // </Router>
 
-        <div>
+        <div className='app-body'>
             <Homepage />
         </div>
     )

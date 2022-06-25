@@ -17,6 +17,11 @@
     }
 }
 
+.menu-option_title{
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .menu-option:hover {
     color: #371B58;
     text-decoration: underline;

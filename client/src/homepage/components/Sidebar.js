@@ -5,9 +5,12 @@ import "../css/Sidebar.css"
 export default function Sidebar(){
     return(
         <div className="sidebar">
-            <div className="sidebar--heading">
-                <img src="" alt=""/>
-                {/* <Avatar /> */}
+            <div className="sidebar--top">
+                <img 
+                    src="../images/bg-img.jpeg" 
+                    alt="background--img"
+                />
+                {/* <Avatar className="sidebar-avatar"/> */}
                 <h2> Kojo Don </h2>
                 <h4> Carpentar at Silicon Rose </h4>
                 <p>

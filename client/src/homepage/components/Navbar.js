@@ -29,6 +29,7 @@ export default function Navbar() {
             <MenuOption text="Job Recommendations" Icon={ CasesRoundedIcon } />
             <MenuOption text="Messages" Icon={MessageIcon}/>
             <MenuOption text="Settings" Icon={SettingsIcon}/>
+            {/* <MenuOption avatar = "./images/bg-img.jpeg" title="Hello"/> */}
             
 
         </div>
