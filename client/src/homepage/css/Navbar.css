@@ -4,7 +4,7 @@
     top: 0;
     border-bottom: rgb(232, 232, 232) 1px solid;
     padding: 10px;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     width: 100%;
     z-index: 999;
     background-color: white;
