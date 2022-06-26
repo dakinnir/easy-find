@@ -12,13 +12,13 @@ import "../css/Feed.css"
 
 export default function Feed() {
 
-    const [post, setPosts] = useState([]);
+    // const [post, setPosts] = useState([]);
     
-    // Intregrate the sending of post from the webpage 
-    const sendPost = e =>{
-        e.preventDefault();
+    // // Intregrate the sending of post from the webpage 
+    // const sendPost = e =>{
+    //     e.preventDefault();
 
-    }
+    // }
 
     return (
         <div className="feed">
@@ -27,7 +27,7 @@ export default function Feed() {
                     <CreateIcon />
                     <form>
                         <input type="text"/>
-                        <button onClick={sendPost} type="submit"> Send </button>
+                        <button type="submit"> Send </button>
                     </form>
                 </div>
                 <div className="feed_inputOption">
@@ -41,9 +41,9 @@ export default function Feed() {
                 </div>
             </div>
             {/* Post */}
-            {post.map((post) =>{
+            {/* {post.map((post) =>{
                 <Post />
-            })}
+            })} */}
 
             <Post 
                 name="Kojo Don" 
