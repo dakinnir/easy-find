@@ -1,0 +1,77 @@
+.container {
+    background-color: #f6f6f6;
+    margin: auto;
+    padding: 0;
+}
+
+/* Form */
+.form {
+    margin: auto;
+    margin-left: 10%;
+    width: 70%;
+    height: 80%;
+}
+
+.form > h1 {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.form > form > .submit-input {
+    background-color: #452d60;
+    color: white;
+    height: 30px;
+    width: 50%;
+}
+
+
+.form > form > .submit-input:hover {
+    cursor: pointer;
+    background-color: #58278f;
+}
+
+/* Input */
+.input-box {
+    margin: 5px 10px 5px 10px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.input-box > label {
+    color: gray;
+    font-size: 13px;
+}
+
+
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    align-content: center;
+}
+
+.side-by-side > .input-box > label > .input-text {
+    width: 100%;
+    height: 27px;
+    padding-left: 5px;
+}
+
+
+/* Email & Address Input fields */
+.full {
+    width: 100%;
+}
+
+.full > .input-box > label {
+    margin-bottom: 5px;
+}
+
+.full > .input-box > label > .input-text {
+    width: 100%;
+    height: 27px;
+    padding-left: 5px;
+}
+
+
+
