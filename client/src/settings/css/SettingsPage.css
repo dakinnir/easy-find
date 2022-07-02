@@ -1,0 +1,93 @@
+/* Container */
+
+.container {
+    height: 90vh;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+/* .middle {
+    flex: 0.1;
+} */
+
+
+.option-menu {
+    flex: 0.3;
+    height: 100%;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 25%;
+    height: 75%;
+    background-color: white;
+}
+
+
+.options > button {
+    margin: 10px;
+}
+
+/* Body Container */
+
+.body-container {
+    flex: 0.7;
+    justify-content: space-between;
+    margin: 0;
+    background-color: white;
+}
+
+
+
+/* Input label & box */
+
+.input-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+}
+
+label {
+    color: #334257;
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    padding: 10px 5px;
+    min-width: 300px;
+    max-width: 500px;
+    width: 100%;
+    border: none;
+    border: 0.4px solid #DDDDDD;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+textarea {
+    border-radius: 4px;
+    padding: 10px;
+    height: 100px;
+    min-width: 300px;
+    max-width: 500px;
+    width: 100%;
+    border: 0.4px solid #DDDDDD;
+    color: #444444;
+}

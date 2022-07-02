@@ -1,0 +1,10 @@
+.dropdown-item {
+    height: 30px;
+    min-width: 300px;
+    width: fit-content;
+    background-color: white;
+}
+
+.dropdown {
+    margin: 10px 10px
+}
