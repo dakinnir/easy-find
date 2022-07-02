@@ -10,26 +10,25 @@ export default function Widgets() {
   return (
     <div className='widgets'>
         <div className="widgets_header">
-            <h2> Job Recommendations </h2>
+            <h2> Professionals Near You!  </h2>
             <CasesRoundedIcon />
         </div>
-        <div className="widgets_info">
-            <Recommendations
-                title="Electrician"
-                description="PepsiCo"
-                location="Atlanta, GA"
-            />
-            <Recommendations
-                title="Engineer"
-                description="Apple"
-                location="Atlanta, GA"
-            />
-            <Recommendations
-                title="Electrician"
-                description="Algo LTM"
-                location="Atlanta, GA"
-            />
-        </div>
+        <Recommendations
+            photoUrl="../images/EasyFind.jpeg"
+            title="Electrician"
+        />
+        <Recommendations
+            photoUrl="../images/bg-img-signup.jpeg"
+            title="Engineer"
+        />
+        <Recommendations
+            photoUrl="../images/bg-img.jpeg"
+            title="Electrician"
+        />
+        <Recommendations
+            photoUrl="../images/EasyFind.jpeg"
+            title="Carpenter"
+        />
     </div>
 
   )

@@ -21,7 +21,7 @@ export default function App() {
         // </Router>
 
         <div className='app-body'>
-            <ProfileSetupPage />
+            <Homepage />
         </div>
     )
 }

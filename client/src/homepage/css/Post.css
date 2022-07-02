@@ -24,6 +24,10 @@
     color: gray;
 }
 
+.post_info > h2{
+    font-size: 20px;
+}
+
 .post_body{
     overflow-wrap: anywhere;
 }

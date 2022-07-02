@@ -26,7 +26,7 @@ export default function Navbar() {
         <div className="navbar-right">
             <MenuOption text="Home" Icon={ HomeRoundedIcon }/>
             <MenuOption text="Profile" Icon={ SupervisorAccountRoundedIcon } />
-            <MenuOption text="Job Recommendations" Icon={ CasesRoundedIcon } />
+            <MenuOption text="Categories" Icon={ CasesRoundedIcon } />
             <MenuOption text="Messages" Icon={MessageIcon}/>
             <MenuOption text="Settings" Icon={SettingsIcon}/>
             <MenuOption avatar="./images/bg-img.jpeg" title="Hello"/>

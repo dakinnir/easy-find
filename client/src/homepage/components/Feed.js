@@ -12,14 +12,6 @@ import "../css/Feed.css"
 
 export default function Feed() {
 
-    // const [post, setPosts] = useState([]);
-    
-    // // Intregrate the sending of post from the webpage 
-    // const sendPost = e =>{
-    //     e.preventDefault();
-
-    // }
-
     return (
         <div className="feed">
             <div className="feed_inputContainer">
@@ -40,10 +32,6 @@ export default function Feed() {
                     <InputOption Icon={ArticleIcon} title="Write Article" color="#371B58"/>
                 </div>
             </div>
-            {/* Post */}
-            {/* {post.map((post) =>{
-                <Post />
-            })} */}
 
             <Post 
                 name="Kojo Don" 

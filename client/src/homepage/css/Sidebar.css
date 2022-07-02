@@ -17,21 +17,25 @@
     background-color: white;
 }
 
-.sidebar--top h2, h4 {
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+.sidebar--top hr{
+    width: 75%;
+    height: 2px;
+    background-color: #371B58;
 }
 
-/* 
-revisit size of the avatar  
-*/
+.sidebar--top h2, h3, h4 {
+    margin: 10px;
+}
+
+.sidebar--top h3{
+    text-align: left;
+}
+
 .sidebar-avatar {
     margin-bottom: 10px;
     transform: scale(1.8);
 }
 
-/* there is a problem with the height of the sidebar; revisit the code  */
 .sidebar--top > img{
     margin-bottom: -10px;
     width: 100%;
