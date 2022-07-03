@@ -1,0 +1,9 @@
+.widgets_header > h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.widgets{
+    position: sticky;
+    flex: 0.2;
+}

@@ -35,7 +35,7 @@
     margin: 10px;
 }
 
-.recommend:hover{
+/* .recommend:hover{
     animation: zoom-in-zoom-out 1s ease;
 }
 
@@ -49,4 +49,4 @@
     100% {
       transform: scale(0.75, 0.75);
     }
-  }
+  } */

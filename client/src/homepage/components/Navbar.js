@@ -25,13 +25,10 @@ export default function Navbar() {
         </div>
         <div className="navbar-right">
             <MenuOption text="Home" Icon={ HomeRoundedIcon }/>
-            <MenuOption text="Profile" Icon={ SupervisorAccountRoundedIcon } />
+            {/* <MenuOption text="Profile" Icon={ SupervisorAccountRoundedIcon } /> */}
             <MenuOption text="Categories" Icon={ CasesRoundedIcon } />
             <MenuOption text="Messages" Icon={MessageIcon}/>
-            <MenuOption text="Settings" Icon={SettingsIcon}/>
-            <MenuOption avatar="./images/bg-img.jpeg" title="Hello"/>
-            
-
+            <MenuOption text="Settings" Icon={SettingsIcon}/>            
         </div>
     </div>
   )

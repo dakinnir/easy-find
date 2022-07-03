@@ -6,6 +6,7 @@ import ForgotPasswordPage from './registration/pages/ForgotPasswordPage'
 import CheckEmailPage from './registration/pages/CheckEmailPage'
 import Homepage from './homepage/Homepage';
 import ProfileSetupPage from './onboarding/ProfileSetupPage';
+import Categories from './categories/Categories';
 
 export default function App() {
     return(
@@ -21,7 +22,7 @@ export default function App() {
         // </Router>
 
         <div className='app-body'>
-            <Homepage />
+            <Categories />
         </div>
     )
 }
