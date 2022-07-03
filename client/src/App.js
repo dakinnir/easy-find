@@ -5,8 +5,9 @@ import RegisterationPage from './registration/pages/RegisterationPage';
 import ForgotPasswordPage from './registration/pages/ForgotPasswordPage'
 import CheckEmailPage from './registration/pages/CheckEmailPage'
 import Homepage from './homepage/Homepage';
-import ProfileSetupPage from './onboarding/ProfileSetupPage';
-
+import SettingsPage from './settings/SettingsPage';
+import Header from './settings/components/Header';
+import SidebarOptions from './settings/components/SidebarOptions';
 export default function App() {
     return(
         // <Router>
@@ -21,7 +22,9 @@ export default function App() {
         // </Router>
 
         <div className='app-body'>
-            <ProfileSetupPage />
+            <SettingsPage />
+            {/* <Header image="../images/test-image.png" name="Anita Cruz" profession="UX Designer"/> */}
+
         </div>
     )
 }
