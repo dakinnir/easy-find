@@ -6,8 +6,6 @@ import SendIcon from '@mui/icons-material/Send';
 import CommentIcon from '@mui/icons-material/Comment';
 import ShareIcon from '@mui/icons-material/Share';
 
-
-
 import "../css/Content.css"
 
 export default function Post({name, description, message, photoUrl}) {
@@ -16,13 +14,11 @@ export default function Post({name, description, message, photoUrl}) {
         <div className="post_header">
             <img src={photoUrl}/>
             <div className="post_info">
-                <h2> {name} </h2>
-                <p> {description} </p>
-                <p> {message} </p>
-            </div>
-            {/* <div className="post_buttons">
+                <h2 className='namee-post'> {name} </h2>
+                <p className='description-post'> {description} </p>
+                <p className='message-post'> {message} </p>
                 <button> Send Message </button>
-            </div> */}
+            </div>
         </div>
     </div>
   )

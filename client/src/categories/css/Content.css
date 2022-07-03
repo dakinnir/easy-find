@@ -10,6 +10,12 @@
     margin-bottom: 10px;
     border: 1px solid lightgray;
     border-radius: 10px;
+    height: fit-content;
+}
+
+.post_header > img{
+    max-width: 150px;
+    height: 200px;
 }
 
 .post_info{
@@ -20,15 +26,21 @@
 .post_info > p{
     font-size: 20px;
     color: black;
-
 }
 
 .post_info > h2{
     font-size: 20px;
-
 }
 
-.post_header > img{
-    max-width: 20%;
+.post_info .message-post{
+    color: grey;
+}
 
+.post_info button{
+    margin-left: 50px;
+    padding: 5px 10px;
+    background-color: #371B58;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
 }
