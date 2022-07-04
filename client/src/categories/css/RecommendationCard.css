@@ -1,0 +1,26 @@
+.recommend {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: fit-content;
+    margin: 10px 10px 30px 10px;
+    width: 200px;
+}
+
+.recommend_header {
+    border: none;
+}
+
+.recommend img {
+    height: 150px;
+    margin: 0;
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.recommend_header .title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+}
