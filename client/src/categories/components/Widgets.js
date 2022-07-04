@@ -1,6 +1,5 @@
 import React from 'react'
 import "../css/Widget.css"
-import CasesRoundedIcon from '@mui/icons-material/CasesRounded';
 import RecommendationCard from './RecommendationCard';
 
 export default function Widgets() {
@@ -10,7 +9,6 @@ export default function Widgets() {
     <div className='widgets'>
         <div className="widgets_header">
             <h2> Professionals Near You!  </h2>
-            {/* <CasesRoundedIcon /> */}
         </div>
         <RecommendationCard
             photoUrl="../images/painting.jpeg"
