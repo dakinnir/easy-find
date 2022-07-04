@@ -12,13 +12,18 @@ export default function Post({name, description, message, photoUrl}) {
   return (
     <div className="post">
         <div className="post_header">
+          <div className="post_image">
             <img src={photoUrl}/>
-            <div className="post_info">
-                <h2 className='namee-post'> {name} </h2>
-                <p className='description-post'> {description} </p>
-                <p className='message-post'> {message} </p>
-                <button> Send Message </button>
-            </div>
+          </div>
+          <div className="post_info">
+            <h2 s
+            gclassName='name-post'> {name} </h2>
+            <p className='description-post'> {description} </p>
+            <p className='message-post'> {message} </p>
+          </div>
+          <div className="post_contact">
+            <button> Send Message </button>
+          </div>
         </div>
     </div>
   )

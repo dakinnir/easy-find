@@ -1,8 +1,7 @@
 import React from 'react'
 import "../css/Widget.css"
 import CasesRoundedIcon from '@mui/icons-material/CasesRounded';
-import Recommendations from './Recommendations';
-
+import RecommendationCard from './RecommendationCard';
 
 export default function Widgets() {
 
@@ -13,20 +12,20 @@ export default function Widgets() {
             <h2> Professionals Near You!  </h2>
             {/* <CasesRoundedIcon /> */}
         </div>
-        <Recommendations
-            photoUrl="../images/EasyFind.jpeg"
+        <RecommendationCard
+            photoUrl="../images/painting.jpeg"
             title="Electrician"
         />
-        <Recommendations
+        <RecommendationCard
             photoUrl="../images/bg-img-signup.jpeg"
             title="Engineer"
         />
-        <Recommendations
+        <RecommendationCard
             photoUrl="../images/bg-img.jpeg"
             title="Electrician"
         />
-        <Recommendations
-            photoUrl="../images/EasyFind.jpeg"
+        <RecommendationCard
+            photoUrl="../images/painting.jpeg"
             title="Carpenter"
         />
     </div>

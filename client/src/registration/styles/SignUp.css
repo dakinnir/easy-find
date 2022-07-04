@@ -1,0 +1,50 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #8e5353;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #7858A6;
+  }
+
+.form {
+    margin: auto;
+    width: 70%;
+    align-items: left;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.form-control > label {
+    width: 100%;
+    margin-left: 0 10px 0 0;
+    text-align: left;
+}
+
+.form-control > input {
+    height: 25px;
+    padding: 5px 20px;
+    background-color: #F6F6F6;
+    padding-left: 5px;
+}

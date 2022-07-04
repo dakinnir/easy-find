@@ -7,7 +7,7 @@ import CheckEmailPage from './registration/pages/CheckEmailPage'
 import Homepage from './homepage/Homepage';
 import ProfileSetupPage from './onboarding/ProfileSetupPage';
 import Categories from './categories/Categories';
-
+import RecommendationCard from './categories/components/RecommendationCard';
 export default function App() {
     return(
         // <Router>
@@ -23,6 +23,10 @@ export default function App() {
 
         <div className='app-body'>
             <Categories />
+            {/* <RecommendationCard
+            photoUrl="../images/painting.jpeg"
+            title="Electrician"
+        /> */}
         </div>
     )
 }
