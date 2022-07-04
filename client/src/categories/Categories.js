@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import Widgets from './components/Widgets'
-import List from './components/List'
+import Widgets from './components/Recommend_Widgets'
+import List from './components/Categories'
 
 import "./css/Categories.css"
 

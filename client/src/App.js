@@ -22,7 +22,7 @@ export default function App() {
         // </Router>
 
         <div className='app-body'>
-            <Homepage />
+            <Categories />
             {/* <RecommendationCard
             photoUrl="../images/painting.jpeg"
             title="Electrician"

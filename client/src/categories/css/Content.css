@@ -28,7 +28,7 @@
 /* Content Info Section */
 .content_info {
     flex: 0.5;
-    margin-left: 0;
+    margin: 10px 20px;
     text-align: left;
 }
 
@@ -55,5 +55,14 @@
     border: 1px solid #371B58;
     border-radius: 7px;
     color: #371B58;
+    cursor: pointer;
+}
+
+.content_contact button:hover{
+    padding: 15px 15px;
+    background-color: #371B58;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
     cursor: pointer;
 }
