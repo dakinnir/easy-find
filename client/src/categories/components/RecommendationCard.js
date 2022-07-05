@@ -1,5 +1,5 @@
 import React from 'react'
-import "../css/Recommendations.css"
+import "../css/RecommendationCard.css"
 
 export default function RecommendationCard({title, photoUrl}) {
   return (
@@ -11,3 +11,4 @@ export default function RecommendationCard({title, photoUrl}) {
     </div>
   )
 }
+

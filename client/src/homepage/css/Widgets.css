@@ -1,12 +1,6 @@
 .widgets{
     position: sticky;
-    top: 80px;
     flex: 0.2;
-    background-color: white;
-    border-radius: 10px;
-    border: 1px solid lightgray;
-    height: fit-content;
-    padding-bottom: 10px;
 }
 
 .widgets_header{
@@ -17,6 +11,6 @@
 }
 
 .widgets_header > h2{
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 600;
 }
