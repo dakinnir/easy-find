@@ -46,7 +46,7 @@ export default function Feed() {
              <Post 
                 name="Kojo Don" 
                 description="Carpentar at Silicon Rose" 
-                message="Pleased to announce I will be joining Racetrack as a Musician" 
+                message="Pleased to announce I will be joining Racetrack as a Musician. Pleased to announce I will be joining Racetrack as a Musician. Pleased to announce I will be joining Racetrack as a Musician. Pleased to announce I will be joining Racetrack as a Musician" 
             />
             <Post 
                 name="Daniel King" 
@@ -61,7 +61,7 @@ export default function Feed() {
             <Post 
                 name="Daniel King" 
                 description="Electrician at Empite Rose" 
-                message="Pleased to announce I will be joining Silion as a Leader" 
+                message="Pleased to announce I will be joining Racetrack as a Musician. Pleased to announce I will be joining Racetrack as a Musician. Pleased to announce I will be joining Racetrack as a Musician. Pleased to announce I will be joining Racetrack as a Musician. Pleased to announce I will be joining Silion as a Leader" 
             />
         </div>
     )

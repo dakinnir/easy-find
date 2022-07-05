@@ -1,17 +1,13 @@
 import React from 'react'
 import "../css/Recommendations.css"
-import AccountBoxIcon from '@mui/icons-material/AccountBox'
 
-
-export default function Recommendations({title, photoUrl}) {
+export default function RecommendationCard({title, photoUrl}) {
   return (
     <div className='recommend'>
+        <img src={photoUrl}/>
         <div className="recommend_header">
-            <img src={photoUrl}/>
-            <h2>{title}</h2>
-            
+            <p className="title">{title}</p>
         </div>
     </div>
   )
 }
-

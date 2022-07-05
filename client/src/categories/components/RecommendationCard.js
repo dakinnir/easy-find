@@ -1,7 +1,5 @@
 import React from 'react'
 import "../css/RecommendationCard.css"
-import AccountBoxIcon from '@mui/icons-material/AccountBox'
-
 
 export default function RecommendationCard({title, photoUrl}) {
   return (

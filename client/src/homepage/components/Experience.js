@@ -1,5 +1,4 @@
 import React from 'react'
-
 import "../css/Experience.css"
 
 export default function Experience ({title, company, message}) {

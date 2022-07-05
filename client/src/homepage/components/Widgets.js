@@ -5,8 +5,6 @@ import Recommendations from './Recommendations';
 
 
 export default function Widgets() {
-
-
   return (
     <div className='widgets'>
         <div className="widgets_header">

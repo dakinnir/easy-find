@@ -8,7 +8,6 @@ import '../css/Navbar.css'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import CasesRoundedIcon from '@mui/icons-material/CasesRounded';
-import SupervisorAccountRoundedIcon from '@mui/icons-material/SupervisorAccountRounded';
 import MessageIcon from '@mui/icons-material/Message';
 import SettingsIcon from '@mui/icons-material/Settings';
 
@@ -25,7 +24,6 @@ export default function Navbar() {
         </div>
         <div className="navbar-right">
             <MenuOption text="Home" Icon={ HomeRoundedIcon }/>
-            {/* <MenuOption text="Profile" Icon={ SupervisorAccountRoundedIcon } /> */}
             <MenuOption text="Categories" Icon={ CasesRoundedIcon } />
             <MenuOption text="Messages" Icon={MessageIcon}/>
             <MenuOption text="Settings" Icon={SettingsIcon}/>            
