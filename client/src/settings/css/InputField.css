@@ -1,0 +1,25 @@
+/* Wrapper Div */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.form-control {
+    padding: 10px 5px;
+    width: 100%;
+    border: none;
+    border: 0.4px solid #DDDDDD;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.form-group > label {
+    color: #334257;
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 5px;
+}

@@ -16,8 +16,7 @@ export default function Post({name, description, message, photoUrl}) {
             <img src={photoUrl}/>
           </div>
           <div className="post_info">
-            <h2 s
-            gclassName='name-post'> {name} </h2>
+            <h2 className='name-post'> {name} </h2>
             <p className='description-post'> {description} </p>
             <p className='message-post'> {message} </p>
           </div>
