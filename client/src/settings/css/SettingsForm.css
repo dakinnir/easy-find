@@ -1,0 +1,39 @@
+/* CSS Styling used for the User Settings and Work History */
+.input-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 60%;
+}
+
+@media only screen and (max-width: 992px) {
+    .input-container {
+        width: 80%;
+    }
+  }
+
+
+.inline-inputs {
+    display: flex;
+    width: 100%;
+}
+
+
+textarea {
+    border-radius: 4px;
+    padding: 10px;
+    height: 100px;
+    min-width: 300px;
+    max-width: 500px;
+    width: 100%;
+    border: 0.4px solid #DDDDDD;
+    color: #444444;
+}
+
+label {
+    color: #334257;
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 5px;
+}
