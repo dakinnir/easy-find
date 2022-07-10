@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
 import './css/SettingsPage.css'
+import React from 'react'
+import './css/SettingsPage.css'
+import CountryDropdown from './components/CountryDropdown'
 import Header from './components/Header'
 import { Link } from 'react-router-dom';
 import SidebarOptions from './components/SidebarOptions';
 import Navbar from '../homepage/components/Navbar';
 import WorkHistorySettings from './components/WorkHistorySettings';
 import UserSettings from './components/UserSettings';
-
 
 export default function SettingsPage() {
     return (
@@ -28,4 +30,3 @@ export default function SettingsPage() {
             </div>
         </React.Fragment>
     )
-}
