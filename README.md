@@ -15,13 +15,12 @@ Backend:
 
  User Stories:
 - [X] Registration: Enable users to access the web application 
-- [ ] Profile Setup: Enable users to access the web application 
-- [ ] Profile: Users will be able to access their profile page and update necessary information (work experience, skills, etc) 
-- [ ] Homepage: Users will be able to create and view post.
-- [ ] Job Recommendations: Users will be able to access a list of recommendations and query the database for specific job recommendations.
-- [ ] Messages: Users will be communciate with each other. 
-- [ ] Settings: Users will be to change profile settings (address, phone number, email, password, etc) and much more. 
-
+- [X] Profile Setup: Enable users to update their profile with information regarding bio, work history, title, and much more.
+- [X] Homepage: Users will be able to create and view post.
+- [X] Categories: Users will be able to access a list of recommendations and query the database for specific job recommendations based on interest.
+- [ ] Messages: Users will be communciate with each other. (Note: Pushed to backlog)
+- [X] User Settings: Users will be to change profile settings (address, phone number, email, password, etc) and much more. 
+- [ ] Backend Development: Create connectivity amongst pages and data to ensure that users have seemless transaction using web application. 
   
 Credits: 
 <li> Daniel Akinniranye: Software Developer
