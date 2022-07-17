@@ -1,31 +1,51 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
+
 import '../css/ForgotPasswordPage.css'
 import PasswordRecoveryHeader from '../components/PasswordRecoveryHeader';
-import { Link } from 'react-router-dom';
-import ForgotPasswordContainer from '../components/ForgotPasswordContainer';
-import Form from '../components/Form';
-import FormInput from '../components/FormInput';
-import FormButton from '../components/FormButton';
+import Navbar from '../../homepage/components/Navbar';
 
 export default function ForgotPasswordPage() {
+
+  const [email, setEmail] = useState("");
+
+  const submitButtonHandler = () => {
+
+  }
+
+  const onChangeHandler = (e) => {
+    setEmail(e.target.value)
+  }
+
   return (
-    <ForgotPasswordContainer>
-      <PasswordRecoveryHeader 
-          image="../images/key-logo.png" 
-          title="Forgot Password" 
-          message="No worries, we'll send you an email to help with password recovery."
-        />
-        <Form>
-            <FormInput 
-                type="email" labelText="Email" 
-                placeholder="Enter email" required 
-            />
+    <div className="forgot-password_page">
+      <Navbar />
+      <div className="forgot-password_container">
+        <form action="" className="fgp-form_container" onSubmit={submitButtonHandler}>
+          <PasswordRecoveryHeader 
+            image="../images/key-logo.png" 
+            title="Forgot Password" 
+            message="No worries, we'll send you an email to help with password recovery."
+          />
+          <input 
+            type="email" 
+            placeholder="Email" 
+            name="email"
+            onChange={onChangeHandler}
+            value={email}
+            required
+            className="form-control"
+          />
+          <button type="submit" className="form-control_btn">Reset Password</button>
 
-            <Link to="/email-check">
-            <FormButton type="submit" text="Reset Password"/>
-
-            </Link>
-        </Form>
-    </ForgotPasswordContainer>
+          <p className="goto-login_link"> 
+              Login?
+              <span>
+                <Link to="/login">Click here</Link>
+              </span>
+          </p>
+        </form>
+      </div>
+    </div>
   )
 }
