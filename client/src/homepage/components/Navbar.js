@@ -28,7 +28,12 @@ export default function Navbar() {
             {/* <MenuOption text="Profile" Icon={ SupervisorAccountRoundedIcon } /> */}
             <MenuOption text="Categories" Icon={ CasesRoundedIcon } />
             <MenuOption text="Messages" Icon={MessageIcon}/>
+<<<<<<< HEAD
             <MenuOption text="Settings" Icon={SettingsIcon}/>            
+=======
+            <MenuOption text="Settings" Icon={SettingsIcon}/>
+            <MenuOption avatar="./images/bg-img.jpeg" title="Hello"/>
+>>>>>>> AV-74-authentication
         </div>
     </div>
   )
